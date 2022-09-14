@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Title</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link href="./index.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+  <!-- NavBar -->
+  <div id="header" class="row">
+    <div id="logo" class="col-2">
+      <a href="#">
+        <img src="./imgs/logo.png" alt="logo">
+      </a>
+    </div>
+    <div class="col-10">
+      <div class="fheader row">
+        <div class="navbar navbar-expand">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <i class="bi bi-clock"></i>
+                <span>24/7 services</span>
+              </li>
+              <li class="nav-item">
+                <i class="bi bi-calendar2-check"></i>
+                <span>On Time,Every Time</span>
+              </li>
+              <li class="nav-item">
+                <i class="bi bi-check2-square"></i>
+                <span>Guarantee Work</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="navbar navbar-expand">
+          <div id="sheader" class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <div class="sheader_inner">
+                <li class="nav-item">
+                  <button type="button" class="quotebtn shadow">
+                    <span class="nav-brand" aria-current="page">Get a free Quote</span>
+                  </button>
+                </li>
+                <li class="nav-item" style="display: flex;">
+                  <button type="button" class="callbtn shadow">
+                    <a href="tel:1300 304 117">
+                      <i class="bi bi-telephone-fill"></i>
+                      <span class="nav-brand" aria-current="page">1300 304 117</span>
+                    </a>
+                  </button>
+                </li>
+                <button class="menubtn shadow" style="border-radius: 90px; background: #005398; color: #ffffff;"
+                  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                  aria-controls="offcanvasRight">
+                  <i class="bi bi-list"></i>
+                </button>
+                <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasRight"
+                  aria-labelledby="offcanvasRight">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Backdrop with scrolling</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                </div>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <section id="qt" class="d-flex">
+    <div class="container">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-lg-5">
+          <img src="./imgs/offer.png" class="img-fluid">
+          <span>3 Carpeted Rooms or 3 Seater Couch</span>
+          <span>For just $85</span>
+          <span>Save $35</span>
+          <div id="bookbtndiv">
+            <button type="button" class="button_pink mb-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              Book Now
+            </button>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="form-items px-4 py-4">
+            <h3 class="text-center">Serving All Areas</h3>
+            <p class="text-center">Get in contact with us today for all your emergency plumbing needs!</p>
+            <div class="email-form row d-flex align-items-stretch">
+              <form action="" method="post" role="form" class="php-email-form">
+                <div class="row">
+                  <div class="form-group col-md-6">
+                    <label for="name">Your Name</label>
+                    <input type="text" name="name" placeholder="Name*" class="form-control" id="name" required>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="phone">Phone</label>
+                    <input type="text" name="phone" placeholder="Phone*" class="form-control" id="phone" required>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="name">Your Email</label>
+                    <input type="email" class="form-control" placeholder="Email*" name="email" id="email" required>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="name">Service</label>
+                    <select class="form-select selectpicker form-select-lg">
+                      <option value="0">Service</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="d-grid col-11 pt-2 ms-auto me-auto">
+              <button type="button" class="button_pink">Get A Quote Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="cardqt">
+    <div class="container">
+      <div id="cardfdiv">
+        <h1 class="text-center title-text">Our Services</h1>
+        <p class="subtitle-text color_b mb-0 text-center">Dedicated services tailored to your needs.</p>
+        <p class="subtitle-text color_b mb-0 text-center">We are specialist provider of cleaning services throughout
+          Sydney</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="card shadow">
+            <img src="./imgs/carpet-cleaning.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Carpet Cleaning</h5>
+              <p class="card-text">Our thorough carpet cleaning and stain protection service will leave you with visibly
+                cleaner carpets whilst
+                improving durability and extending their life without harming nature as we promote the use of
+                eco-friendly products.</p>
+            </div>
+            <button class="fill">Book Now</button>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="card shadow">
+            <img src="./imgs/upholstery-cleaning.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Upholstery Cleaning</h5>
+              <p class="card-text">Couches, lounge suites, sofas, arm chairs and other upholstered furniture receive a
+                lot of daily use and they
+                need to be cleaned frequently by professionals. As dirty upholstery can be proven seriously harmful to
+                health.</p>
+              <a></a>
+            </div>
+            <button class="fill">Book Now</button>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="card shadow" id="mattressid">
+            <img src="./imgs/mattress-cleaning.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mattress Cleaning</h5>
+              <p class="card-text">We help you eliminate the many types of germs, viruses and bacteria that can
+                accumulate within mattresses and contribute to health problems. We are well equipped with necessary
+                tools and
+                our experts know the best techniques for your mattress cleaning Sydney.</p>
+              <a></a>
+            </div>
+            <button class="fill">Book Now</button>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="card shadow">
+            <img src="./imgs/leather-lounge-restoration.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Leather Cleaning</h5>
+              <p class="card-text">Leather furniture is known for its durability, but it also requires caution and
+                regular cleaning.
+                One of the downsides of leather sofas is the absorption of oil and sweat from the body. Professional
+                cleaning gives
+                you peace of mind.</p>
+              <a></a>
+            </div>
+            <button class="fill">Book Now</button>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="card shadow" id="tileid">
+            <img src="./imgs/tile-grout-cleaning.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Tile & Grout Cleaning</h5>
+              <p class="card-text">Tile and grout cleaning, minor tile repairs, grout recoloring, tile polishing, tile
+                restoration,
+                tile mildew treatment, slippery floor treatment, epoxy grouting & regrouting, high pressure cleaning,
+                marble restoration,
+                and more are all available with our team of experienced cleaners..</p>
+              <a></a>
+            </div>
+            <button class="fill">Book Now</button>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="card shadow" id="vinylid">
+            <img src="./imgs/vinyl-cleaning.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Vinyl Floor Cleaning</h5>
+              <p class="card-text">Vinyl flooring is smooth and water resistant, and with regular cleaning and
+                maintenance, you can keep their resiliency and brilliance. On the other hand, they lose their lustre
+                quickly if not properly maintained,
+                becoming lifeless and shrimpy. We have vinyl floor cleaning specialists at Kings Of Cleaning Services
+                who can provide
+                cost-effective sanitising solutions in vinyl strip and seal to give your property a new and sparkling
+                appeal.</p>
+              <a></a>
+            </div>
+            <button class="fill">Book Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="txtpt">
+    <div id="cardfdiv">
+      <h1 class="text-center title-text">Kings of Cleaning Service Sydney</h1>
+      <p class="subtitle-text color_b mb-0 text-center">Professional Commercial and Residential Cleaning Services in
+        Sydney</p>
+    </div>
+    <div class="row">
+      <p class="justify-text">At Kings of Cleaning Services we offer carpet cleaning, upholstery cleaning, couch
+        cleaning, sofa cleaning, mattress cleaning,
+        leather lounge cleaning, tile and grout cleaning, and vinyl floor cleaning in Sydney for residential and
+        commercial customers.
+        These services include deodorizing, and all types of stain removal all free of cost if required. It is crucial
+        to maintain the cleaning
+        of your carpet, upholstery, couch, sofa, mattress, leather lounge, tile and grout, and vinyl floor, throughout
+        your home or office as
+        it can often inhabit germs, allergens, dirt, and bad odors. By using Cleaning Service Sydney at Kings of
+        Cleaning Services we can erase
+        these unwanted inhabitants and leave your home or office cleaner and fresher for longer.
+        Whether you live in a rural area outside of Sydney or in a metropolitan suburb in Sydney, Our professionals can
+        provide you with a professional and stain removal service at affordable prices.
+      </p>
+    </div>
+  </section>
+
+
+</body>
+
+
+</html>
